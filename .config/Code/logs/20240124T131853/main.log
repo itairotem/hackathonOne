@@ -1,0 +1,10 @@
+2024-01-24 13:18:54.783 [info] update#setState idle
+2024-01-24 13:19:24.787 [info] update#setState checking for updates
+2024-01-24 13:19:25.131 [info] update#setState idle
+2024-01-24 13:22:44.711 [info] Extension host with pid 484 exited with code: 0, signal: unknown.
+2024-01-24 17:31:06.919 [info] update#setState checking for updates
+2024-01-24 17:31:16.416 [info] update#setState idle
+2024-01-24 19:07:50.468 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-24 19:07:50.469 [info] update#setState checking for updates
+2024-01-24 19:08:00.048 [info] update#setState idle
+2024-01-24 19:29:17.683 [info] Extension host with pid 1564 exited with code: 0, signal: unknown.
