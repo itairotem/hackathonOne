@@ -3,7 +3,7 @@
     "profileAssociations": {
         "workspaces": {
             "file:///home/simgabrob/Bootcamp": "__default__profile__",
-            "file:///home/simgabrob/.config/Code/Workspaces/1706093985195/workspace.json": "__default__profile__"
+            "file:///home/simgabrob/.config/Code/Workspaces/1706775258435/workspace.json": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -13,8 +13,8 @@
     "backupWorkspaces": {
         "workspaces": [
             {
-                "id": "c6289286cbc790293548908aebe85929",
-                "configURIPath": "file:///home/simgabrob/.config/Code/Workspaces/1706093985195/workspace.json"
+                "id": "6dacfa13b20953289d9dd43d4f5f88c4",
+                "configURIPath": "file:///home/simgabrob/.config/Code/Workspaces/1706775258435/workspace.json"
             }
         ],
         "folders": [],
@@ -763,7 +763,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     }
                 ]
             },
@@ -1696,15 +1697,15 @@
     "windowsState": {
         "lastActiveWindow": {
             "workspaceIdentifier": {
-                "id": "c6289286cbc790293548908aebe85929",
-                "configURIPath": "file:///home/simgabrob/.config/Code/Workspaces/1706093985195/workspace.json"
+                "id": "6dacfa13b20953289d9dd43d4f5f88c4",
+                "configURIPath": "file:///home/simgabrob/.config/Code/Workspaces/1706775258435/workspace.json"
             },
-            "backupPath": "/home/simgabrob/.config/Code/Backups/c6289286cbc790293548908aebe85929",
+            "backupPath": "/home/simgabrob/.config/Code/Backups/6dacfa13b20953289d9dd43d4f5f88c4",
             "uiState": {
                 "mode": 1,
-                "x": 359,
+                "x": 384,
                 "y": 40,
-                "width": 818,
+                "width": 768,
                 "height": 784
             }
         },

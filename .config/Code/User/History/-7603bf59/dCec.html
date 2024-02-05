@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+        .container{
+            display: grid;
+            height: 90vh;
+            width: 90vh;
+            gap: 10px;
+            grid-template-rows: repeat(4, 1fr);
+            grid-template-columns: 1fr 3fr;
+            border: solid 5px black;
+            padding: 5px;
+        }
+        .element-red{
+           background-color: red;
+           border: solid 5px black;
+
+        }
+        .element-blue{
+           background-color: blue;
+           border: solid 5px black;
+        }
+        .element-yellow{
+           background-color: yellow;
+            grid-row: 4;
+            grid-column: 1 / span 2;
+            border: solid 5px black;
+        }  
+        
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+<div class="element-red"></div>
+<div class="element-blue"></div>
+<div class="element-red"></div>
+<div class="element-blue"></div>
+<div class="element-red"></div>
+<div class="element-blue"></div>
+<div class="element-yellow"></div>
+<div class="element-yellow"></div>
+</div>
+
+
+</body>
+</html>

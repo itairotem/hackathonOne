@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+        .container{
+            display: grid;
+            height: 90vh;
+            width: 90vh;
+            gap: 10px;
+            grid-template-rows: 2fr repeat(4, 1fr) 2fr;
+            grid-template-columns: repeat(6, 2fr);
+            border: solid 1px black;
+            padding: 5px;
+            grid-template-areas:
+            "1 2 2 2 2 1"
+            "1 2 2 2 2 1"
+            "1 1 1 1 1 1"
+            "1 1 1 1 1 1"
+            "1 2 2 2 2 1"
+            "1 2 2 2 2 1";
+        .box{background-color: yellow;}
+        .nothing{background-color: red;}
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+<div class="box" style="grid-area:1;"><h3>3</h3></div>
+<div class="nothing" style="grid-area:2;"><h3>4</h3></div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+        .container{
+            display: grid;
+            height: 40vh;
+            width: 90vh;
+            gap: 10px;
+            grid-template-rows: 2fr repeat(4, 1fr) 2fr;
+            grid-template-columns: repeat(6, 2fr);
+            border: solid 1px black;
+            padding: 5px;
+            grid-template-areas:
+            "h h h"
+            "he mc mc"
+            "sd mc mc"
+            "sd ec ec"
+            "ri ri rp"
+            "f f f";
+        .header{background-color: pink;}
+        .box{background-color: blue;}
+        .maincontent{background-color: red;}
+        .sidebar{background-color: green;}
+        .extra-content{background-color: lime;}
+        .related-images{background-color: aqua;}
+        .related-posts{background-color: blueviolet;}
+        .footer{background-color: orange;}
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+<div class="box" style="grid-area:  b;"></div>
+</div>
+
+
+</body>
+</html>

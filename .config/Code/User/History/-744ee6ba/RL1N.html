@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+        .container{
+            display: grid;
+            height: 90vh;
+            width: 90vh;
+            gap: 10px;
+            grid-template-rows: repeat(5, 1fr);
+            grid-template-columns: repeat(3, 1fr);
+            border: solid 5px black;
+            padding: 5px;
+            grid-template-areas:
+            "1 1 1"
+            "2 3 4"
+            "2 5 5"
+            "6 6 7"
+            "8 8 8";
+        .one{background-color: pink;}
+        .two{background-color: blueviolet;}
+        .three{background-color: blue;}
+        .four{background-color: green;}
+        .five{background-color: lime;}
+        .six{background-color: pink;}
+        .seven{background-color: blueviolet;}
+        .eight{background-color: blue;}
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+<div class="one" style="grid-area:1;"><h3>1</h3></div>
+<div class="two" style="grid-area: 2;"><h3>2</h3></div>
+<div class="three"  style="grid-area: 3;"><h3>3</h3></div>
+<div class="four" style="grid-area: 4;"><h3>4</h3></div>
+<div class="five" style="grid-area:5;"><h3>5</h3></div>
+<div class="six" style="grid-area:6;"><h3>6</h3></div>
+<div class="seven" style="grid-area:7;"><h3>7</h3></div>
+<div class="eight" style="grid-area:8;"><h3>8</h3></div>
+</div>
+
+
+</body>
+</html>

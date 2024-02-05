@@ -1,0 +1,12 @@
+2024-01-29 15:28:08.671 [info] Extension host with pid 15968 started
+2024-01-29 15:28:08.671 [info] Skipping acquiring lock for /home/simgabrob/.config/Code/User/workspaceStorage/c6289286cbc790293548908aebe85929.
+2024-01-29 15:28:08.809 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-29 15:28:08.841 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-29 15:28:08.907 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-29 15:28:09.104 [info] Eager extensions activated
+2024-01-29 15:28:09.176 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-29 15:28:09.194 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-29 15:28:09.243 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2024-01-29 15:28:10.126 [error] Error: ENOENT: no such file or directory, scandir '/home/simgabrob/Cat'
+2024-01-29 15:28:11.790 [info] Extension host terminating: renderer closed the MessagePort
+2024-01-29 15:28:11.889 [info] Extension host with pid 15968 exiting with code 0

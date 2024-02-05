@@ -26,3 +26,6 @@
     at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:49876)
     at SimpleURLLoaderWrapper.emit (node:events:513:28)
 2024-01-29 14:20:43.975 [info] update#setState idle
+2024-01-29 15:20:18.435 [info] update#setState checking for updates
+2024-01-29 15:20:18.582 [info] update#setState idle
+2024-01-29 15:28:02.007 [info] Extension host with pid 3808 exited with code: 0, signal: unknown.

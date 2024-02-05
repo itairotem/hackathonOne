@@ -28,3 +28,43 @@ apt-get install git
 add-apt-repository ppa:git-core/ppa
 apt update; apt install git
 apt-get install git
+# apt-get install git
+[200~sudo apt update~
+sudo apt update
+sudo apt upgrade
+sudo apt install git
+sudo yum upgrade
+sudo apt install git
+open git
+open git.gz
+unzip git.gz
+open git.zip
+sudo apt install git
+sudo apt install git -y
+mkdir ~/myproject
+git init
+git add README.txt
+git add .
+git status
+open git
+git --version
+cd linux files
+cd linux
+ls
+cd Bootcamp
+git init
+git add .
+git commit -m "first commit"
+git config --global user.email "simgabrob@gmail.com"
+git config --global user.name "simongrobbins"
+git branch -M main
+git remote add origin https://github.com/simongrobbins/DIbootcamp.git
+git push -u origin main
+git commit -m "first commit"
+git push -u origin main
+ls
+cd Bootcamp
+ls
+git add .
+git commit -m "day1 javascript"
+git push

@@ -1,0 +1,11 @@
+2024-01-29 21:37:50.415 [error] electron #215: https://update.code.visualstudio.com/api/update/linux-x64/stable/8b3775030ed1a69b13e4f4c628c612102e30a681 - error undefined net::ERR_NAME_NOT_RESOLVED
+2024-01-29 21:37:50.535 [error] electron #216: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2024-01-29 21:38:14.098 [error] electron #217: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2024-01-29 21:38:14.099 [error] electron #218: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2024-01-29 21:38:29.831 [error] electron #219: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2024-01-29 21:38:29.833 [error] electron #220: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2024-01-29 21:38:42.893 [error] electron #221: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2024-01-29 21:38:59.399 [error] electron #222: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2024-01-29 21:39:32.100 [error] electron #223: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2024-01-29 21:39:47.786 [error] electron #224: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2024-01-29 21:43:03.602 [error] electron #225: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED

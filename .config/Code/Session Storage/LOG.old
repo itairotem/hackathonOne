@@ -1,2 +1,3 @@
-2024/01/24-13:12:08.246 6ab Creating DB /home/simgabrob/.config/Code/Session Storage since it was missing.
-2024/01/24-13:12:08.264 6ab Reusing MANIFEST /home/simgabrob/.config/Code/Session Storage/MANIFEST-000001
+2024/02/01-11:03:52.872 1c9 Reusing MANIFEST /home/simgabrob/.config/Code/Session Storage/MANIFEST-000001
+2024/02/01-11:03:52.872 1c9 Recovering log #3
+2024/02/01-11:03:52.872 1c9 Reusing old log /home/simgabrob/.config/Code/Session Storage/000003.log 

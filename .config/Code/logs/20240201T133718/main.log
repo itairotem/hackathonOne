@@ -1,0 +1,10 @@
+2024-02-01 13:37:19.369 [info] update#setState idle
+2024-02-01 13:37:49.373 [info] update#setState checking for updates
+2024-02-01 13:37:49.392 [info] update#setState available for download
+2024-02-03 22:55:17.652 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-03 22:57:41.484 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-04 14:05:37.579 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-04 14:20:19.881 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-04 14:21:17.369 [info] Extension host with pid 559 exited with code: 0, signal: unknown.
+2024-02-04 15:13:36.135 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-04 16:32:18.092 [warning] No ptyHost heartbeat after 6 seconds

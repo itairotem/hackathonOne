@@ -1,0 +1,21 @@
+2024-01-29 16:47:17.841 [info] update#setState idle
+2024-01-29 16:47:47.849 [info] update#setState checking for updates
+2024-01-29 16:47:47.941 [info] update#setState idle
+2024-01-29 21:37:36.863 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-29 21:37:36.864 [info] update#setState checking for updates
+2024-01-29 21:37:50.416 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:49876)
+    at SimpleURLLoaderWrapper.emit (node:events:513:28)
+2024-01-29 21:37:50.421 [info] update#setState idle
+2024-01-30 13:13:09.260 [info] update#setState checking for updates
+2024-01-30 13:13:18.536 [info] update#setState idle
+2024-01-30 13:21:17.316 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-30 14:13:09.644 [info] update#setState checking for updates
+2024-01-30 14:13:09.780 [info] update#setState idle
+2024-01-30 14:49:22.065 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-01 10:08:17.260 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-01 10:08:17.265 [info] update#setState checking for updates
+2024-02-01 10:08:27.448 [info] update#setState idle
+2024-02-01 10:14:18.139 [info] Extension host with pid 559 exited with code: 0, signal: unknown.
+2024-02-01 10:50:45.913 [info] Extension host with pid 6034 exited with code: 0, signal: unknown.
+2024-02-01 11:03:52.896 [info] Extension host with pid 7495 exited with code: 0, signal: unknown.

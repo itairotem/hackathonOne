@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#About.Me">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item dropdown">
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact me</a>
+              </li>
+
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+<style>
+    .container{
+      height: 200px;
+      display: flex;
+      justify-content: center;
+    }
+    .heading{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+   
+    header {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      font-stretch: expanded;
+      font-size: large;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 40px;
+      padding: 40px;
+      background-color: rgb(17, 180, 50);
+      box-shadow: 0 0 20px;
+      border-radius: 400px;
+
+    }
+      #About-Me{
+        display: flex;
+        flex-direction: column;
+      }
+      .Simon{
+        align-self: flex-end;
+        position: absolute;
+        bottom: 305px;
+      }
+
+
+
+
+  
+</style>
+
+<!-- section: about me, skills, projects, contact -->
+<div class="container">
+  <div class="header">
+    <header><h1>Hello, I am Simon Robbins<h1></header>
+    <h2>I am learning how to code on a gap year in Israel</h2>
+  </div>
+</div>
+
+<section id="About-Me">
+  <h1><center>About Me</center></h1>
+  <div>I am 18 Years old. I am from Barrington, RI. I love robotoics so coding was the next logical move. I </div>
+  <img class="Simon" src="https://epsilon.creativecirclecdn.com/eastbayri/original/20220202-090933-bhs%20robotics-15.jpg" alt="me" width="150px">
+</section>
+
+<section id="skills">
+  <h1><center>Skills</center></h1>
+ <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure cupiditate veritatis accusantium a tempore aspernatur animi voluptatibus assumenda porro commodi. Quod facere dolores incidunt suscipit harum obcaecati non modi ea.</div>
+</section>
+
+<section id="contact">
+<div>
+  <h1><center>Contact Information</center></h1>
+  <p><center>Phone number: +1 (401) 595-9587</center></p>
+  <p><center>Email: simgabrob@gmail.com</center></p>
+  <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <center><button type="submit" class="btn btn-primary">Submit</button></center>
+  </form>
+</div>
+
+</section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
