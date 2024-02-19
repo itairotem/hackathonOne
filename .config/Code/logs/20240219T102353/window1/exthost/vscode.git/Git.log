@@ -466,3 +466,48 @@ fatal: adding files failed
 2024-02-19 11:06:59.129 [info] > git config --get commit.template [7ms]
 2024-02-19 11:06:59.130 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/simon refs/remotes/simon [2ms]
 2024-02-19 11:06:59.184 [info] > git status -z -uall [49ms]
+2024-02-19 11:07:08.027 [info] > git add -A -- . [87ms]
+2024-02-19 11:07:08.087 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [54ms]
+2024-02-19 11:07:08.098 [info] > git config --get commit.template [3ms]
+2024-02-19 11:07:08.118 [info] > git config --get commit.template [9ms]
+2024-02-19 11:07:08.119 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/simon refs/remotes/simon [3ms]
+2024-02-19 11:07:08.185 [info] > git status -z -uall [57ms]
+2024-02-19 11:07:08.210 [info] > git push [1ms]
+2024-02-19 11:07:08.211 [info] fatal: The current branch simon has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin simon
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+2024-02-19 11:07:08.244 [info] > git config --get commit.template [15ms]
+2024-02-19 11:07:08.255 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/simon [13ms]
+2024-02-19 11:07:08.268 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/simon refs/remotes/simon [15ms]
+2024-02-19 11:07:08.279 [info] > git config --local branch.simon.vscode-merge-base [13ms]
+2024-02-19 11:07:08.321 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2024-02-19 11:07:08.388 [info] > git merge-base refs/heads/simon refs/heads/master [8ms]
+2024-02-19 11:07:08.399 [info] > git rev-list --count --left-right refs/heads/simon...refs/heads/master [3ms]
+2024-02-19 11:07:08.401 [info] > git status -z -uall [124ms]
+2024-02-19 11:07:13.677 [info] > git ls-files --stage -- /home/simgabrob/Hackathon/hackathonOne/style.css [4ms]
+2024-02-19 11:07:13.692 [info] > git show --textconv :Hackathon/hackathonOne/style.css [4ms]
+2024-02-19 11:07:28.237 [info] > git push -u origin simon [14649ms]
+2024-02-19 11:07:28.237 [info] remote: 
+remote: Create a pull request for 'simon' on GitHub by visiting:        
+remote:      https://github.com/itairotem/hackathonOne/pull/new/simon        
+remote: 
+To https://github.com/itairotem/hackathonOne.git
+ * [new branch]      simon -> simon
+2024-02-19 11:07:28.270 [info] > git config --get commit.template [17ms]
+2024-02-19 11:07:28.272 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/simon refs/remotes/simon [7ms]
+2024-02-19 11:07:28.352 [info] > git status -z -uall [65ms]
+2024-02-19 11:07:28.439 [info] > git config --get commit.template [13ms]
+2024-02-19 11:07:28.442 [info] > git merge-base refs/heads/simon refs/remotes/origin/simon [3ms]
+2024-02-19 11:07:28.456 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/simon refs/remotes/simon [3ms]
+2024-02-19 11:07:28.457 [info] > git rev-list --count --left-right refs/heads/simon...refs/remotes/origin/simon [10ms]
+2024-02-19 11:07:28.531 [info] > git status -z -uall [67ms]
+2024-02-19 11:07:28.549 [info] > git config --get commit.template [2ms]
+2024-02-19 11:07:28.561 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/simon refs/remotes/simon [2ms]
+2024-02-19 11:07:28.616 [info] > git status -z -uall [48ms]
+2024-02-19 11:07:29.033 [info] > git check-ignore -v -z --stdin [13ms]
+2024-02-19 11:07:29.566 [info] > git ls-files --stage -- /home/simgabrob/Hackathon/hackathonOne/style.css [6ms]
+2024-02-19 11:07:29.587 [info] > git show --textconv :Hackathon/hackathonOne/style.css [6ms]
