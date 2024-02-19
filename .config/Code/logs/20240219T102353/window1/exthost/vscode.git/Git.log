@@ -412,3 +412,27 @@ fatal: adding files failed
 2024-02-19 11:05:55.016 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
 2024-02-19 11:05:55.016 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
 2024-02-19 11:05:55.601 [info] > git check-ignore -v -z --stdin [39ms]
+2024-02-19 11:06:05.920 [info] > git add -A -- . [224ms]
+2024-02-19 11:06:06.034 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [108ms]
+2024-02-19 11:06:06.041 [info] > git config --get commit.template [1ms]
+2024-02-19 11:06:06.052 [info] > git config --get commit.template [3ms]
+2024-02-19 11:06:06.061 [info] No remotes found in the git config file.
+2024-02-19 11:06:06.064 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/simon refs/remotes/simon [4ms]
+2024-02-19 11:06:06.119 [info] > git status -z -uall [50ms]
+2024-02-19 11:06:06.204 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/simon [4ms]
+2024-02-19 11:06:06.238 [info] > git config --local branch.simon.vscode-merge-base [25ms]
+2024-02-19 11:06:06.250 [info] > git config --get commit.template [13ms]
+2024-02-19 11:06:06.258 [info] > git reflog refs/heads/simon --grep-reflog=branch: Created from *. [8ms]
+2024-02-19 11:06:06.279 [info] No remotes found in the git config file.
+2024-02-19 11:06:06.280 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to simon [12ms]
+2024-02-19 11:06:06.296 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/simon refs/remotes/simon [17ms]
+2024-02-19 11:06:06.310 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2024-02-19 11:06:06.337 [info] > git config --local branch.simon.vscode-merge-base master [15ms]
+2024-02-19 11:06:06.349 [info] > git status -z -uall [43ms] (cancelled)
+2024-02-19 11:06:06.350 [info] > git config --get commit.template [2ms]
+2024-02-19 11:06:06.354 [info] No remotes found in the git config file.
+2024-02-19 11:06:06.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/simon refs/remotes/simon [2ms]
+2024-02-19 11:06:06.421 [info] > git status -z -uall [56ms]
+2024-02-19 11:06:06.436 [info] > git merge-base refs/heads/simon refs/heads/master [2ms]
+2024-02-19 11:06:06.447 [info] > git rev-list --count --left-right refs/heads/simon...refs/heads/master [4ms]
+2024-02-19 11:06:07.071 [info] > git check-ignore -v -z --stdin [12ms]
