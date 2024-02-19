@@ -1,0 +1,22 @@
+* {
+    background-color: black;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 2px;
+    
+  }
+
+  .cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: lightgrey;
+    text-align: center;
+  }

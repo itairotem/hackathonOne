@@ -1,0 +1,80 @@
+0 verbose cli /home/simgabrob/.config/nvm/versions/node/v21.6.1/bin/node /home/simgabrob/.config/nvm/versions/node/v21.6.1/bin/npm
+1 info using npm@10.2.4
+2 info using node@v21.6.1
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/home/simgabrob/.config/nvm/versions/node/v21.6.1/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 0ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/simgabrob/.cache/typescript/5.3/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 2ms
+11 timing config:load:file:/home/simgabrob/.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/home/simgabrob/.config/nvm/versions/node/v21.6.1/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 12ms
+17 timing npm:load:configload Completed in 12ms
+18 timing config:load:flatten Completed in 3ms
+19 timing npm:load:mkdirpcache Completed in 11ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install types-registry@latest
+22 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:/home/simgabrob/.npm/_logs/2024-02-05T12_22_29_579Z-
+26 verbose logfile /home/simgabrob/.npm/_logs/2024-02-05T12_22_29_579Z-debug-0.log
+27 timing npm:load:logFile Completed in 8ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 56ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing arborist:ctor Completed in 0ms
+34 timing idealTree:init Completed in 12ms
+35 http fetch GET 200 https://registry.npmjs.org/types-registry 119ms (cache miss)
+36 timing idealTree:userRequests Completed in 128ms
+37 silly idealTree buildDeps
+38 silly fetch manifest types-registry@0.1.682
+39 silly placeDep ROOT types-registry@0.1.682 OK for:  want: 0.1.682
+40 timing idealTree:#root Completed in 5ms
+41 timing idealTree:node_modules/types-registry Completed in 0ms
+42 timing idealTree:buildDeps Completed in 7ms
+43 timing idealTree:fixDepFlags Completed in 0ms
+44 timing idealTree Completed in 149ms
+45 timing reify:loadTrees Completed in 150ms
+46 timing reify:diffTrees Completed in 1ms
+47 silly reify moves {}
+48 timing reify:retireShallow Completed in 2ms
+49 timing reify:createSparse Completed in 2ms
+50 timing reify:loadBundles Completed in 0ms
+51 silly audit bulk request { 'types-registry': [ '0.1.682' ] }
+52 silly tarball no local data for types-registry@https://registry.npmjs.org/types-registry/-/types-registry-0.1.682.tgz. Extracting by manifest.
+53 http fetch GET 200 https://registry.npmjs.org/types-registry/-/types-registry-0.1.682.tgz 218ms (cache miss)
+54 timing reifyNode:node_modules/types-registry Completed in 226ms
+55 timing reify:unpack Completed in 226ms
+56 timing reify:unretire Completed in 0ms
+57 timing build:queue Completed in 1ms
+58 timing build:deps Completed in 1ms
+59 timing build Completed in 1ms
+60 timing reify:build Completed in 1ms
+61 timing reify:trash Completed in 0ms
+62 http fetch GET 200 https://registry.npmjs.org/npm 448ms (cache miss)
+63 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 261ms
+64 timing auditReport:getReport Completed in 262ms
+65 silly audit report {}
+66 timing auditReport:init Completed in 0ms
+67 timing reify:audit Completed in 263ms
+68 timing reify:save Completed in 34ms
+69 timing reify Completed in 493ms
+70 silly ADD node_modules/types-registry
+71 timing command:install Completed in 498ms
+72 notice
+72 notice New minor version of npm available! 10.2.4 -> 10.4.0
+72 notice Changelog: <https://github.com/npm/cli/releases/tag/v10.4.0>
+72 notice Run `npm install -g npm@10.4.0` to update!
+72 notice
+73 verbose exit 0
+74 timing npm Completed in 755ms
+75 info ok

@@ -3,12 +3,12 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/simgabrob/Bootcamp" added="2024-01-24T09:08:10.452671Z" modified="2024-01-29T13:28:24.953301Z" visited="2024-01-24T09:08:10.452672Z">
+  <bookmark href="file:///home/simgabrob/Bootcamp" added="2024-01-24T09:08:10.452671Z" modified="2024-02-19T08:36:32.560226Z" visited="2024-01-24T09:08:10.452672Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-01-29T13:28:24.953264Z" count="2"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-02-19T08:36:32.560225Z" count="6"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -39,6 +39,16 @@
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
           <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-02-04T12:21:10.900838Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/simgabrob/Hackathon" added="2024-02-19T08:33:15.029085Z" modified="2024-02-19T08:57:12.655055Z" visited="2024-02-19T08:33:15.029086Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-02-19T08:57:12.655051Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>

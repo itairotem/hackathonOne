@@ -1,0 +1,13 @@
+2024-02-11 14:06:49.544 [info] Extension host with pid 3174 started
+2024-02-11 14:06:49.544 [info] Skipping acquiring lock for /home/simgabrob/.config/Code/User/workspaceStorage/22511b255bbce2836638f823683a4361.
+2024-02-11 14:06:49.670 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-11 14:06:49.699 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-02-11 14:06:50.198 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-11 14:06:50.976 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-11 14:06:51.089 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-11 14:06:51.432 [info] Eager extensions activated
+2024-02-11 14:06:51.727 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-11 14:06:51.731 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-11 14:06:51.761 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-02-11 14:06:51.805 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2024-02-11 14:06:52.702 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'

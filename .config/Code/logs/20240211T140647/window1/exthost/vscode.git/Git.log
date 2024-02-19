@@ -1,0 +1,23 @@
+2024-02-11 14:06:51.509 [info] Log level: Info
+2024-02-11 14:06:51.509 [info] Validating found git in: "git"
+2024-02-11 14:06:51.509 [info] Using git "2.39.2" from "git"
+2024-02-11 14:06:51.524 [info] > git rev-parse --show-toplevel [33ms]
+2024-02-11 14:06:51.557 [info] > git rev-parse --git-dir --git-common-dir [11ms]
+2024-02-11 14:06:51.578 [info] Open repository: /home/simgabrob/Bootcamp
+2024-02-11 14:06:51.600 [info] > git config --get commit.template [10ms]
+2024-02-11 14:06:51.693 [info] > git rev-parse --show-toplevel [97ms]
+2024-02-11 14:06:51.724 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [78ms]
+2024-02-11 14:06:51.758 [info] > git rev-parse --show-toplevel [41ms]
+2024-02-11 14:06:51.955 [info] > git rev-parse --show-toplevel [67ms]
+2024-02-11 14:06:52.150 [info] > git status -z -uall [134ms]
+2024-02-11 14:06:52.150 [info] > git rev-parse --show-toplevel [121ms]
+2024-02-11 14:06:52.277 [info] > git config --get commit.template [24ms]
+2024-02-11 14:06:52.278 [info] > git rev-parse --show-toplevel [46ms]
+2024-02-11 14:06:52.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-02-11 14:06:52.370 [info] > git rev-parse --show-toplevel [30ms]
+2024-02-11 14:06:52.436 [info] > git rev-parse --show-toplevel [21ms]
+2024-02-11 14:06:52.439 [info] > git status -z -uall [4ms]
+2024-02-11 14:06:52.465 [info] > git check-ignore -v -z --stdin [3ms]
+2024-02-11 14:06:54.214 [info] > git show --textconv :Mini Game week 2/miniProject.js [16ms]
+2024-02-11 14:06:54.217 [info] > git ls-files --stage -- /home/simgabrob/Bootcamp/Mini Game week 2/miniProject.js [3ms]
+2024-02-11 14:06:54.241 [info] > git cat-file -s fa31fcbadc1366010b0386a7a14f940cd795ea2f [11ms]

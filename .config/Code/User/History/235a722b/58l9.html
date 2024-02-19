@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id= "form1">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="firstname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lastname"><br><br>
+        <input type="submit" value="Submit" id="submit">
+      </form> 
+      <ul class="usersAnswer"></ul>
+      <script>
+
+
+        
+        const form2 = document.body.firstElementChild
+        console.log(form2);
+        
+        form2.addEventListener("submit", function (event){
+          event.preventDefault()
+          const fname = document.getElementById('form1').elements['fname'].value
+          const lname = document.getElementById('form1').elements['lname'].value
+          console.log(fname + lname);
+          const name = (fname + " " + lname)
+          console.log(name);
+          let li1 = document.createElement('li')
+          let li2 = document.createElement('li')
+          li1.appendChild(document.createTextNode(fname))
+          li2.appendChild(document.createTextNode(lname))
+          ul=document.querySelector('ul')
+          ul.appendChild(li1)
+          ul.appendChild(li2)
+      })
+      </script>
+
+        
+        
+</body>
+</html>

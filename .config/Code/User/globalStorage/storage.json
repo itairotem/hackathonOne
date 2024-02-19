@@ -3,7 +3,7 @@
     "profileAssociations": {
         "workspaces": {
             "file:///home/simgabrob/Bootcamp": "__default__profile__",
-            "file:///home/simgabrob/.config/Code/Workspaces/1706775258435/workspace.json": "__default__profile__"
+            "file:///home/simgabrob/Hackathon": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -11,13 +11,15 @@
     "telemetry.sqmId": "",
     "telemetry.machineId": "8b48c13aa04e86824ec089aa96c3bb449ff07e99209e39e4d7cb800078005525",
     "backupWorkspaces": {
-        "workspaces": [
+        "workspaces": [],
+        "folders": [
             {
-                "id": "6dacfa13b20953289d9dd43d4f5f88c4",
-                "configURIPath": "file:///home/simgabrob/.config/Code/Workspaces/1706775258435/workspace.json"
+                "folderUri": "file:///home/simgabrob/Bootcamp"
+            },
+            {
+                "folderUri": "file:///home/simgabrob/Hackathon"
             }
         ],
-        "folders": [],
         "emptyWindows": []
     },
     "lastKnownMenubarData": {
@@ -58,10 +60,22 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/simgabrob/Hackathon",
+                                        "path": "/home/simgabrob/Hackathon",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Hackathon"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -267,7 +281,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Workspace"
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -477,7 +491,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1696,16 +1711,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "workspaceIdentifier": {
-                "id": "6dacfa13b20953289d9dd43d4f5f88c4",
-                "configURIPath": "file:///home/simgabrob/.config/Code/Workspaces/1706775258435/workspace.json"
-            },
-            "backupPath": "/home/simgabrob/.config/Code/Backups/6dacfa13b20953289d9dd43d4f5f88c4",
+            "folder": "file:///home/simgabrob/Hackathon",
+            "backupPath": "/home/simgabrob/.config/Code/Backups/de3175eaa2a79e61c1561d4dd774e609",
             "uiState": {
-                "mode": 1,
-                "x": 384,
+                "mode": 0,
+                "x": 0,
                 "y": 40,
-                "width": 768,
+                "width": 1536,
                 "height": 784
             }
         },

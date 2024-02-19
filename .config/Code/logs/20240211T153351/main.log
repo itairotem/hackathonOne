@@ -1,0 +1,10 @@
+2024-02-11 15:33:51.473 [info] update#setState idle
+2024-02-11 15:34:21.476 [info] update#setState checking for updates
+2024-02-11 15:34:21.500 [info] update#setState available for download
+2024-02-11 15:36:09.307 [info] update#setState idle
+2024-02-11 16:00:22.304 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-11 16:44:58.424 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-11 16:44:58.424 [info] update#setState checking for updates
+2024-02-11 16:45:06.732 [info] update#setState available for download
+2024-02-11 18:20:24.413 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-11 18:20:28.973 [info] Extension host with pid 2363 exited with code: 0, signal: unknown.

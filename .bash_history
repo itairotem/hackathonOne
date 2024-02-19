@@ -68,3 +68,8 @@ ls
 git add .
 git commit -m "day1 javascript"
 git push
+con
+cd
+node introObj.js
+$ git init
+git init

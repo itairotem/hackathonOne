@@ -1,0 +1,19 @@
+/* Styles for todo list */
+.listTasks {
+    margin-top: 20px;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .task input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .task .delete-btn {
+    cursor: pointer;
+  }
+  

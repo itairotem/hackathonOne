@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <article>
+        <h1> Some Facts </h1>
+        <h2> The Chocolate </h2>
+        <h3> History of the chocolate </h3>
+        <p> Chocolate is made from tropical Theobroma cacao tree seeds. 
+        Its earliest use dates back to the Olmec civilization in Mesoamerica.</p>
+        <p> After the European discovery of the Americas, chocolate became 
+        very popular in the wider world, and its demand exploded. </p>
+        <p> Chocolate has since become a popular food product that millions enjoy every day, 
+        thanks to its unique, rich, and sweet taste.</p> 
+        <p> But what effect does eating chocolate have on our health?</p> 
+    </article>
+    <button>Change for Bold</button>
+
+
+    <script>
+//1
+        const article = document.body.firstElementChild
+        const h1 = article.firstElementChild
+        console.log(h1);
+
+//2
+        const article2= document.querySelector('article')
+        article2.lastElementChild.remove()
+        console.log(article2);
+
+//3
+        const h2 = article.children[1]
+
+        h2.addEventListener('click', () =>{
+            h2.style.backgroundColor = 'red'
+        });
+//4
+    const h3 = article.children[2]
+
+    h3.addEventListener('click', () =>{
+        h3.remove()
+});  
+//5   
+const button = document.querySelector('button')
+button.addEventListener('click', ()=>{
+    article.style.fontWeight = 'bold';
+})
+    </script>
+</body>
+</html>
