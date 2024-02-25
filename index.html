@@ -7,8 +7,41 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="container"></div>
-    <div class="board"></div>
-    
+<b><div class="title">Tic Tac Toe</div>
+<div class="left-side">   
+    <div class="container">
+        <div class="cells" id="1"></div>
+        <div class="cells" id="2"></div>
+        <div class="cells" id="3"></div>
+        <div class="cells" id="4"></div>
+        <div class="cells" id="5"></div>
+        <div class="cells" id="6"></div>
+        <div class="cells" id="7"></div>
+        <div class="cells" id="8"></div>
+        <div class="cells" id="9"></div>
+    </div>
+</div>
+    <div class="right-side">
+        <table class="Players-table">
+            <thead>
+                <tr>
+                    <th>Player 1</th>
+                    <th>Player 2</th>
+                    <!-- <th>Winner</th> -->
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+<div class="bottomArea">
+    <form>
+        <input type="text" id="player1Name" placeholder="Enter Player 1 Name">
+        <input type="text" id="player2Name" placeholder="Enter Player 2 Name">
+        <button type= "submit" onclick= "addName(event)">Submit</button>
+    </form>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
