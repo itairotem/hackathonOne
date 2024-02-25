@@ -1,0 +1,21 @@
+### Tic Tac Toe Project Review
+
+#### Overview
+Yalls Tic Tac Toe project is a well-structured application that combines HTML, CSS, and JavaScript to offer a classic game with a modern web interface. Your project includes scoreboard that you didnt quite get to work, but i believe you can do it.
+
+#### Highlights
+- **Gameplay Implementation**: The core Tic Tac Toe gameplay is effectively implemented, allowing for intuitive and engaging user interaction.
+- **Styling**: The CSS styling provides a pleasant visual experience, with a coherent color scheme and responsive design elements.
+
+#### Areas for Improvement
+- **Responsive Design**: While the design is visually appealing, further improvements can be made for better responsiveness on various devices. Consider using more relative units (`vw`, `vh`, `%`) and media queries.
+- **Code Optimization**: The JavaScript code, particularly in the `TicTacToe` class, could be optimized for readability and efficiency. For example, the `makeMove` method could be streamlined to reduce complexity.
+- **Accessibility**: Enhancing accessibility by adding keyboard navigation and ARIA roles would make the game more inclusive.
+- **Documentation**: Adding comments to the JavaScript code would improve maintainability and readability, making it easier for others (or yourself in the future) to understand the code's logic.
+
+#### Suggested Code Improvement
+Consider refactoring the `makeMove` method to reduce redundancy and improve clarity. For example, you could separate the win and tie checks into their own methods.
+
+#### Conclusion
+This Tic Tac Toe project is a solid demonstration of your web development skills, with a focus on user interaction and visual design. By addressing the areas for improvement you can further enhance the project's quality and user experience.
+Great job guys!
