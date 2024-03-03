@@ -1,0 +1,15 @@
+2024-02-21 22:51:27.890 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-21 22:51:28.406 [info] Started local extension host with pid 12111.
+2024-02-21 22:51:29.379 [error] [Extension Host] (node:12111) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-02-21 22:51:31.382 [info] [perf] Render performance baseline is 61ms
+2024-02-21 22:51:31.974 [warning] Ignoring the error while validating workspace folder vsls:/ - ENOPRO: No file system provider found for resource 'vsls:/'
+2024-02-21 22:51:31.983 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-21 22:51:32.210 [info] Started local extension host with pid 12146.
+2024-02-21 22:51:32.733 [error] [Extension Host] (node:12146) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-02-21 22:51:48.784 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-21 22:51:49.011 [info] Started local extension host with pid 12213.
+2024-02-21 22:51:50.433 [error] [Extension Host] (node:12213) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-02-21 22:51:52.321 [info] [perf] Render performance baseline is 83ms

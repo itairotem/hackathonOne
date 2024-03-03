@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+class Video {
+  constructor(title, uploader, time) {
+    this.title = title;
+    this.uploader = uploader;
+    this.time = time;
+  }
+
+  watch() {
+    console.log(`${this.uploader} watched all ${this.time} seconds of ${this.title}!`);
+  }
+}
+
+const video1 = new Video("Funny Cats Compilation", "User123", 300);
+video1.watch();
+
+const video2 = new Video("Epic Fails Compilation", "User456", 600);
+video2.watch();
+
+const videoData = [
+  {title: "Nature Documentary", uploader: "NationalGeographic", time: 1800},
+  {title: "Cooking Tutorial", uploader: "ChefCooking", time: 900},
+  {title: "Gaming Highlights", uploader: "Gamer123", time: 1200},
+  {title: "Travel Vlog", uploader: "TravelerWorld", time: 1500},
+  {title: "Music Concert", uploader: "MusicFanatic", time: 2400}
+];
+
+const videos = [];
+for (const data of videoData) {
+  const video = new Video(data.title, data.uploader, data.time);
+  videos.push(video);
+}
+videos.forEach(video => video.watch());
+
+
+
+
+    </script>
+</body>
+</html>

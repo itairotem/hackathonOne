@@ -1,0 +1,59 @@
+2024-02-21 22:51:29.052 [info] Extension host with pid 12111 started
+2024-02-21 22:51:29.138 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-21 22:51:29.156 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'onUri:ms-vsliveshare.vsliveshare'
+2024-02-21 22:51:29.399 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-21 22:51:29.455 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-21 22:51:29.562 [info] Eager extensions activated
+2024-02-21 22:51:29.663 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-21 22:51:29.667 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-21 22:51:29.693 [info] ExtensionService#_doActivateExtension genieai.chatgpt-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-02-21 22:51:29.752 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-02-21 22:51:29.764 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2024-02-21 22:51:29.992 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-02-21 22:51:31.394 [info] Extension host terminating: renderer closed the MessagePort
+2024-02-21 22:51:31.452 [error] TypeError: Cannot read properties of undefined (reading 'stop')
+	at SessionTelemetry.endSession (/home/simgabrob/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5905/extension.js:94:632233)
+	at SessionContext.updateTelemetryContext (/home/simgabrob/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5905/extension.js:94:206266)
+	at SessionContext.onSessionStateChanged (/home/simgabrob/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5905/extension.js:94:209604)
+	at n.y (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at SessionStateTracker.setState (/home/simgabrob/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5905/extension.js:94:214149)
+	at SessionStateTracker.transition (/home/simgabrob/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5905/extension.js:94:213858)
+	at LeaveCollaborationCommand.invoke (/home/simgabrob/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5905/extension.js:94:2016311)
+2024-02-21 22:51:31.454 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+	at new g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at A.resolveProxy (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:38973)
+	at Object.resolveProxy (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:133:33289)
+	at useProxySettings (/usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:165:16)
+	at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:113:13
+	at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:459:13 
+2024-02-21 22:51:31.540 [info] Extension host with pid 12111 exiting with code 0
+2024-02-21 22:51:32.616 [info] Extension host with pid 12146 started
+2024-02-21 22:51:32.616 [info] Skipping acquiring lock for /home/simgabrob/.config/Code/User/workspaceStorage/6e893b64a5f81ba58636361e9cc207fd.
+2024-02-21 22:51:32.626 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'onFileSystem:vsls'
+2024-02-21 22:51:32.866 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-21 22:51:32.876 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-21 22:51:32.899 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-02-21 22:51:32.979 [info] Eager extensions activated
+2024-02-21 22:51:33.008 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-21 22:51:33.016 [info] ExtensionService#_doActivateExtension genieai.chatgpt-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-02-21 22:51:33.032 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2024-02-21 22:51:47.953 [info] Extension host terminating: renderer closed the MessagePort
+2024-02-21 22:51:47.976 [info] Extension host with pid 12146 exiting with code 0
+2024-02-21 22:51:49.892 [info] Extension host with pid 12213 started
+2024-02-21 22:51:49.954 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-21 22:51:49.984 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-21 22:51:50.017 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-21 22:51:50.111 [info] Eager extensions activated
+2024-02-21 22:51:50.144 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-21 22:51:50.148 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-21 22:51:50.154 [info] ExtensionService#_doActivateExtension genieai.chatgpt-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-02-21 22:51:50.173 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-02-21 22:51:50.187 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2024-02-21 22:51:50.267 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'api', root cause: ritwickdey.LiveServer
+2024-02-21 22:51:50.593 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-02-21 22:51:52.961 [info] Extension host terminating: renderer closed the MessagePort
+2024-02-21 22:51:53.083 [info] Extension host with pid 12213 exiting with code 0

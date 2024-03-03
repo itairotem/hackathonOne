@@ -1,0 +1,58 @@
+* {
+  background-color: grey;
+  font-size: 100px;
+  justify-content: center;
+  align-content: center;
+}
+.title {
+  text-align: center;
+  background-color: red;
+  margin: auto;
+  width: fit-content;
+  padding: 15px;
+  font-size: 45px;
+}
+.left-side {
+  float: left;
+  width: 45%;
+}
+.right-side {
+  float: right;
+  width: 45%;
+
+}
+.leader-board {
+  display: flex;
+  flex-wrap: wrap;
+}
+.case{
+  width: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 4fr;
+  height: 200px; /* Set the height of the boxes */
+  border: 1px solid #000; /* Add a border for visual clarity */
+  box-sizing: border-box; /* Include border in the box's dimensions */
+  justify-content: center; /* Center content horizontally */
+  align-content: center; /* Center content vertically */
+  font-size: 24px; /* Set font size */
+}
+.container {
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  background-color: blue;
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  justify-content: center;
+  align-content: center;
+  gap: 15px; /* Adjust this value to set the gap between grid items */
+}
+.cells {
+  background-color: #ccc; /* Background color of grid items */
+  border: 2px solid #000; /* Border around grid items */
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}

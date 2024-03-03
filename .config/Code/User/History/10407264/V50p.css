@@ -1,0 +1,15 @@
+* {
+    background-color: grey;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px; /* Adjust this value to set the gap between grid items */
+  }
+  .item {
+    background-color: #ccc; /* Background color of grid items */
+    border: 1px solid #000; /* Border around grid items */
+    text-align: center;
+    padding: 20px;
+  }

@@ -1,0 +1,18 @@
+* {
+    background-color: grey;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px; /* Adjust this value to set the gap between grid items */
+  }
+    <div class="item">1</div>
+
+.board {
+    display: grid;
+    border: 1px black;
+
+    grid-template-columns: (3, 250px);
+    grid-template-rows: (3, 250px);
+}

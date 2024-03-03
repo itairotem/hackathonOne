@@ -1,0 +1,54 @@
+* {
+  background-color: grey;
+}
+.title {
+  text-align: center;
+  background-color: red;
+  margin: auto;
+  width: fit-content;
+  padding: 15px;
+  font-size: 45px;
+}
+.left-side {
+  float: left;
+  width: 50%;
+  font-size: 100px;
+  justify-content: center;
+  align-content: center;
+}
+.right-side {
+  float: right;
+  width: 50%;
+
+}
+.Players-table {
+  display: grid;
+  font-size: 40px;
+  border: 1px solid black;
+  width: fit-content;
+}
+.Players-table th, .Players-table td {
+  border: 1px solid black; /* Add a border to each cell */
+  width: fit-content;
+  text-align: left; /* Align text to the left within cells */
+}
+
+.container {
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  background-color: blue;
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  justify-content: center;
+  align-content: center;
+  gap: 15px; /* Adjust this value to set the gap between grid items */
+}
+.cells {
+  background-color: #ccc; /* Background color of grid items */
+  border: 2px solid #000; /* Border around grid items */
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}

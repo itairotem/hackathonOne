@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Excercise 1
+// const person = {
+//     name: 'John Doe',
+//     age: 25,
+//     location: {
+//         country: 'Canada',
+//         city: 'Vancouver',
+//         coordinates: [49.2827, -123.1207]
+//     }
+// }
+
+// const {name, location: {country, city, coordinates: [lat, lng]}} = person;
+
+// console.log(`I am ${name} from ${city}, ${country}. Latitude(${lat}), Longitude(${lng})`);
+//I am John Doe from Vancouver, Canada. Latitude(49.2827), Longitude(-123.1207)
+
+//Excercise 2
+// function displayStudentInfo(objUser){
+//     const { first, last } = objUser;
+//     console.log(`Your full name is ${first} ${last}`);
+// }
+
+// displayStudentInfo({first: 'Elie', last:'Schoppik'});
+
+//Excercise 3
+// const users = { user1: 18273, user2: 92833, user3: 90315 }
+// const usersArray = Object.entries(users);
+
+// console.log(usersArray);
+// const usersArray1 = Object.entries(users).map(([key, value]) => [key, value * 2]);
+
+// console.log(usersArray1);
+
+//Excercise 4
+// class Person {
+//   constructor(name) {
+//     this.name = name;
+//   }
+// }
+
+// const member = new Person('John');
+// console.log(typeof member);
+//Result: Object
+
+//Excercise 5
+// class Dog {
+//   constructor(name) {
+//     this.name = name;
+//   }
+// };
+
+//   // 1
+// class Labrador extends Dog {
+//   constructor(name, size) {
+//     this.size = size;
+//   }
+// };
+
+
+//   // 2
+// class Labrador extends Dog {
+//   constructor(name, size) {
+//     super(name);
+//     this.size = size;
+//   }
+// };
+
+//   // 3
+// class Labrador extends Dog {
+//   constructor(size) {
+//     super(name);
+//     this.size = size;
+//   }
+// };
+
+
+//   // 4
+// class Labrador extends Dog {
+//   constructor(name, size) {
+//     this.name = name;
+//     this.size = size;
+//   }
+// };
+//Number 2 is the correct one
+
+//Excercise 6
+
+// [2] === [2] //True
+// {} === {} // False
+
+
+// const object1 = { number: 5 };  //4
+// const object2 = object1; //4
+// const object3 = object2; //4
+// const object4 = { number: 5}; //5
+
+// object1.number = 4;
+// console.log(object2.number)
+// console.log(object3.number)
+// console.log(object4.number)
+
+// class Animal {
+//   constructor(name, type, color) {
+//     this.name = name;
+//     this.type = type;
+//     this.color = color;
+//   }
+// }
+
+// class Mammal extends Animal {
+//   sound(sound) {
+//     return `Moooo I'm a ${this.type}, named ${this.name} and I'm ${this.color} and I go "${sound}"`;
+//   }
+// }
+
+// const farmerCow = new Mammal('Lily', 'cow', 'brown and white');
+// console.log(farmerCow.sound('moos'));
+
+
+
+    </script>
+</body>
+</html>

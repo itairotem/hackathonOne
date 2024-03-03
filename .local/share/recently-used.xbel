@@ -3,32 +3,12 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/simgabrob/Bootcamp" added="2024-01-24T09:08:10.452671Z" modified="2024-02-19T08:36:32.560226Z" visited="2024-01-24T09:08:10.452672Z">
+  <bookmark href="file:///home/simgabrob/Bootcamp" added="2024-01-24T09:08:10.452671Z" modified="2024-02-26T10:42:19.743087Z" visited="2024-01-24T09:08:10.452672Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-02-19T08:36:32.560225Z" count="6"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/simgabrob/Cat" added="2024-01-24T10:59:44.808854Z" modified="2024-01-24T10:59:44.808947Z" visited="2024-01-24T10:59:44.808857Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="inode/directory"/>
-        <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-01-24T10:59:44.808866Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/simgabrob/Portfolio" added="2024-02-01T08:14:17.918121Z" modified="2024-02-01T08:14:17.918148Z" visited="2024-02-01T08:14:17.918122Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="inode/directory"/>
-        <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-02-01T08:14:17.918124Z" count="1"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-02-26T10:42:19.743083Z" count="11"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -43,12 +23,42 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/simgabrob/Hackathon" added="2024-02-19T08:33:15.029085Z" modified="2024-02-19T08:57:12.655055Z" visited="2024-02-19T08:33:15.029086Z">
+  <bookmark href="file:///home/simgabrob/Hackathon" added="2024-02-19T08:33:15.029085Z" modified="2024-02-26T10:39:13.851058Z" visited="2024-02-19T08:33:15.029086Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-02-19T08:57:12.655051Z" count="2"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-02-26T10:39:13.851054Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/simgabrob/card-pattern.png" added="2024-02-29T12:27:03.839858Z" modified="2024-02-29T12:27:03.839913Z" visited="2024-02-29T12:27:03.839859Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-02-29T12:27:03.839862Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/simgabrob/circuit-pattern.png" added="2024-02-29T12:27:39.930796Z" modified="2024-02-29T12:27:39.930805Z" visited="2024-02-29T12:27:39.930799Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-02-29T12:27:39.930802Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/simgabrob/Final%20Project" added="2024-03-03T12:13:49.059444Z" modified="2024-03-03T12:13:49.059450Z" visited="2024-03-03T12:13:49.059445Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-03-03T12:13:49.059447Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

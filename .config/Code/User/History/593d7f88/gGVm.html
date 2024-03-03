@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//excercise 1
+const sum = (num1, num2) => num1 + num2;
+
+//excercise 2
+function kgToGramsDeclaration(weightInKg) {
+    return weightInKg * 1000;
+}
+console.log(kgToGramsDeclaration(5));
+
+
+const kgToGramsExpression = function(weightInKg) {
+    return weightInKg * 1000;
+};
+console.log(kgToGramsExpression(5));
+
+
+
+const kgToGramsArrow = weightInKg => weightInKg * 1000;
+console.log(kgToGramsArrow(5));
+
+//Exercise 3 : Fortune Teller
+(function(numberOfChildren, partnerName, geographicLocation, jobTitle) {
+    const sentence = `You will be a ${jobTitle} in ${geographicLocation}, and married to ${partnerName} with ${numberOfChildren} kids.`;
+    document.body.innerHTML = sentence;
+})(2, "Alice", "New York", "Software Engineer");
+
+//Exercise 4 : Welcome
+
+
+
+
+    </script>
+</body>
+</html>

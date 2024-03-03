@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// Given data
+let client = "John";
+
+const groceries = {
+    fruits: ["pear", "apple", "banana"],
+    vegetables: ["tomatoes", "cucumber", "salad"],
+    totalPrice: "20$",
+    other: {
+        paid: true,
+        meansOfPayment: ["cash", "creditCard"]
+    }
+};
+
+// Arrow function to display fruits using forEach
+const displayGroceries = () => {
+    groceries.fruits.forEach(fruit => console.log(fruit));
+};
+
+// Arrow function to clone groceries object
+const cloneGroceries = () => {
+    // Copying the client variable
+    let user = client; // This will create a copy of the value of the client variable, not a reference to it
+
+    // Changing the client variable
+    client = "Betty"; // This change won't affect the user variable since it's a primitive value (string), passed by value
+
+    // Creating a copy of the groceries object
+    let shopping = { ...groceries }; // This creates a shallow copy of the groceries object
+
+    // Changing the value of totalPrice key
+    shopping.totalPrice = "35$"; // This change will only affect the shopping object, not the groceries object, because objects are passed by reference
+
+    // Changing the value of paid key
+    shopping.other.paid = false; // This change will affect the shopping object as well as the groceries object, because objects are passed by reference
+};
+
+// Call the displayGroceries function to display fruits
+displayGroceries();
+
+// Call the cloneGroceries function to demonstrate modifications
+cloneGroceries();
+
+// Log the results to verify changes
+console.log("client:", client); // Output: "client: Betty"
+console.log("groceries:", groceries);
+
+
+    </script>
+</body>
+</html>

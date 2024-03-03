@@ -2,8 +2,10 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
+            "file:///tmp/vsliveshare-workspace-tmp-8CB253952AF7DD9FAFBD3CDA80ECDCD6B078/Visual%20Studio%20Live%20Share.code-workspace": "__default__profile__",
+            "file:///home/simgabrob/Hackathon": "__default__profile__",
             "file:///home/simgabrob/Bootcamp": "__default__profile__",
-            "file:///home/simgabrob/Hackathon": "__default__profile__"
+            "file:///home/simgabrob/Final%20Project": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -17,7 +19,7 @@
                 "folderUri": "file:///home/simgabrob/Bootcamp"
             },
             {
-                "folderUri": "file:///home/simgabrob/Hackathon"
+                "folderUri": "file:///home/simgabrob/Final%20Project"
             }
         ],
         "emptyWindows": []
@@ -60,10 +62,33 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/simgabrob/Final%20Project",
+                                        "path": "/home/simgabrob/Final Project",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Final Project"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/simgabrob/Bootcamp",
+                                        "path": "/home/simgabrob/Bootcamp",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Bootcamp"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -77,15 +102,29 @@
                                     "label": "~/Hackathon"
                                 },
                                 {
-                                    "id": "openRecentFolder",
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/simgabrob/Bootcamp",
-                                        "path": "/home/simgabrob/Bootcamp",
+                                        "external": "file:///home/simgabrob/circuit-pattern.png",
+                                        "path": "/home/simgabrob/circuit-pattern.png",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Bootcamp"
+                                    "label": "~/circuit-pattern.png"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/simgabrob/card-pattern.png",
+                                        "path": "/home/simgabrob/card-pattern.png",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/card-pattern.png"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -143,6 +182,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -490,8 +536,11 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel",
-                                    "checked": true
+                                    "label": "&&Panel"
+                                },
+                                {
+                                    "id": "toggle.toggleCustomTitleBar",
+                                    "label": "Custom Title Bar"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -509,6 +558,10 @@
                                                 "id": "workbench.action.activityBarLocation.side",
                                                 "label": "&&Side",
                                                 "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.activityBarLocation.top",
+                                                "label": "&&Top"
                                             },
                                             {
                                                 "id": "workbench.action.activityBarLocation.hide",
@@ -595,6 +648,10 @@
                                                 "checked": true
                                             },
                                             {
+                                                "id": "workbench.action.editorActionsTitleBar",
+                                                "label": "Title Bar"
+                                            },
+                                            {
                                                 "id": "workbench.action.hideEditorActions",
                                                 "label": "Hidden"
                                             }
@@ -616,7 +673,8 @@
                                 },
                                 {
                                     "id": "editor.action.toggleStickyScroll",
-                                    "label": "&&Sticky Scroll"
+                                    "label": "&&Sticky Scroll",
+                                    "checked": true
                                 },
                                 {
                                     "id": "editor.action.toggleRenderWhitespace",
@@ -777,7 +835,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     }
                 ]
             },
@@ -1074,6 +1133,10 @@
                                 {
                                     "id": "editor.debug.action.addLogPoint",
                                     "label": "&&Logpoint..."
+                                },
+                                {
+                                    "id": "editor.debug.action.triggerByBreakpoint",
+                                    "label": "&&Triggered Breakpoint..."
                                 }
                             ]
                         }
@@ -1463,6 +1526,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
+            "workbench.action.copyEditorToNewWindow": {
+                "label": "Ctrl+K O",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k o"
+            },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
                 "userSettingsLabel": "shift+alt+0"
@@ -1709,13 +1777,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/simgabrob/Hackathon",
-            "backupPath": "/home/simgabrob/.config/Code/Backups/de3175eaa2a79e61c1561d4dd774e609",
+            "folder": "file:///home/simgabrob/Final%20Project",
+            "backupPath": "/home/simgabrob/.config/Code/Backups/89a777498ea75ea64f20f27682c667ef",
             "uiState": {
-                "mode": 0,
-                "x": 0,
+                "mode": 1,
+                "x": 384,
                 "y": 40,
-                "width": 1536,
+                "width": 768,
                 "height": 784
             }
         },

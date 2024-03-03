@@ -1,0 +1,20 @@
+style change
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch simon
+# Your branch is up to date with 'origin/simon'.
+#
+# Changes to be committed:
+#	modified:   .config/Code/TransportSecurity
+#	modified:   .config/Code/User/globalStorage/state.vscdb
+#	modified:   .config/Code/User/globalStorage/storage.json
+#	modified:   .config/Code/User/workspaceStorage/601c855903917fbe20e169a3fc211489/state.vscdb
+#	modified:   .config/Code/logs/20240219T102353/window1/exthost/exthost.log
+#	modified:   .config/Code/logs/20240219T102353/window1/exthost/vscode.git/Git.log
+#	modified:   .config/Code/logs/20240219T102353/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+#
+# Changes not staged for commit:
+#	modified:   .config/Code/logs/20240219T102353/window1/exthost/vscode.git/Git.log
+#	modified:   Hackathon/hackathonOne (untracked content)
+#

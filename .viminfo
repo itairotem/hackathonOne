@@ -23,14 +23,26 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/Bootcamp/style1.css
-|4,48,1,0,1706533942,"~/Bootcamp/style1.css"
+'0  164  0  ~/.git/COMMIT_EDITMSG
+|4,48,164,0,1708334764,"~/.git/COMMIT_EDITMSG"
+'1  1  0  ~/Bootcamp/style1.css
+|4,49,1,0,1706533942,"~/Bootcamp/style1.css"
 
 # Jumplist (newest first):
+-'  164  0  ~/.git/COMMIT_EDITMSG
+|4,39,164,0,1708334764,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1708334497,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Bootcamp/style1.css
+|4,39,1,0,1706533942,"~/Bootcamp/style1.css"
 -'  1  0  ~/Bootcamp/style1.css
 |4,39,1,0,1706533942,"~/Bootcamp/style1.css"
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/COMMIT_EDITMSG
+	*	1708334539	0
+	"	164	0
 
 > ~/Bootcamp/style1.css
 	*	1706533941	0

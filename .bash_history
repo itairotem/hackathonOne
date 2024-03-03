@@ -73,3 +73,25 @@ cd
 node introObj.js
 $ git init
 git init
+git clone
+git clone https://github.com/itairotem/hackathonOne.git
+git add .
+git commit -m "styl.css"
+git push -u origin main
+git push -u origin master
+git push
+git checkout -b simon
+git add .
+git commit -m "added style"
+git branch
+git add .
+git commit -m "added style"
+git pull
+git branch
+git checkout main
+git add .
+git commit -m "hi"
+git commit -a
+~sudo apt update
+sudo apt update
+sudo apt-get upgrade code

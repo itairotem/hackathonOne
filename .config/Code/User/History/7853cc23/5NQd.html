@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// const gameInfo = [
+//  {
+//    username: "john",
+//    team: "red",
+//    score: 5,
+//    items: ["ball", "book", "pen"]
+//  },
+//  {
+//    username: "becky",
+//    team: "blue",
+//    score: 10,
+//    items: ["tape", "backpack", "pen"]
+//  },
+//  {
+//    username: "susy",
+//    team: "red",
+//    score: 55,
+//    items: ["ball", "eraser", "pen"]
+//  },
+//  {
+//    username: "tyson",
+//    team: "green",
+//    score: 1,
+//    items: ["book", "pen"]
+//  },
+// ];
+// //part 1
+// const usernames = [];
+
+// gameInfo.forEach(player => {
+//     usernames.push(player.username + '!');
+// });
+
+// console.log(usernames);
+// //part 2
+
+// const winners = [];
+
+// gameInfo.forEach(player => {
+//     if (player.score > 5) {
+//         winners.push(player.username);
+//     }
+// });
+
+// console.log(winners);
+// //part 3
+// let totalScore = 0;
+
+// gameInfo.forEach(player => {
+//     totalScore += player.score;
+// });
+
+// console.log("Total score of all users:", totalScore);
+
+//excercise 5
+// const colors = ["Blue", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow"];
+// const ordinal = ["th","st","nd","rd"];
+
+// colors.forEach((color, index) => {
+//     let suffix;
+//     if (index + 1 >= 11 && index + 1 <= 13) {
+//         suffix = ordinal[0];
+//     } else {
+//         suffix = ordinal[(index + 1) % 10] || ordinal[0];
+//     }
+//     console.log(`${index + 1}${suffix} choice is ${color}.`);
+// });
+
+//excercise 6
+// let bankAmount = 5000; // Example value
+// const vatPercentage = 0.17; // 17%
+
+// const expenses = ["+200", "-100", "+146", "+167", "-2900"];
+
+// // Function to calculate VAT for each expense
+// const calculateVAT = (amount) => {
+//     return amount * (1 + vatPercentage);
+// };
+
+// // Modify expenses to include VAT
+// const expensesWithVAT = expenses.map(expense => {
+//     const parsedExpense = parseFloat(expense);
+//     if (parsedExpense > 0) {
+//         return `+${calculateVAT(parsedExpense).toFixed(2)}`;
+//     } else {
+//         return `${calculateVAT(parsedExpense).toFixed(2)}`;
+//     }
+// });
+
+// // Update bankAmount based on modified expenses
+// expensesWithVAT.forEach(expense => {
+//     bankAmount += parseFloat(expense);
+// });
+
+// console.log("Updated bank account standing at the end of the month:", bankAmount.toFixed(2));
+
+
+    </script>
+
+</body>
+</html>

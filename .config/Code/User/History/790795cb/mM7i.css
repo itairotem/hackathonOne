@@ -1,0 +1,64 @@
+* {
+  background-color: grey;
+}
+.title {
+  background-color: red;
+  margin: 15px;
+  width: fit-content;
+  padding: 15px;
+  font-size: 45px;
+  text-align: center;
+  
+}
+.left-side {
+  float: left;
+  width: 45%;
+  font-size: 100px;
+  justify-content: center;
+  align-content: center;
+}
+.right-side {
+  float: right;
+  width: 45%;
+
+}
+.Players-table {
+  display: grid;
+  font-size: 40px;
+  border: 1px solid black;
+  width: fit-content;
+  padding: 10px;
+  max-height: 200px; /* Set maximum height for the table container */
+  overflow-y: auto; /* Enable vertical scrolling when content overflows */
+
+}
+.Players-table th, .Players-table td {
+  border: 1px solid black; /* Add a border to each cell */
+  width: fit-content;
+  padding: 10px;
+  text-align: left; /* Align text to the left within cells */
+ 
+}
+.Players-table th{
+  position: sticky; /* Make the header sticky */
+  top: 0; /* Stick the header to the top */
+}
+.container {
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  background-color: blue;
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  justify-content: center;
+  align-content: center;
+  gap: 15px; /* Adjust this value to set the gap between grid items */
+}
+.cells {
+  background-color: #ccc; /* Background color of grid items */
+  border: 2px solid #000; /* Border around grid items */
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}

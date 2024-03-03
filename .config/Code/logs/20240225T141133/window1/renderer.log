@@ -1,0 +1,10 @@
+2024-02-25 14:11:34.226 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-25 14:11:35.126 [info] Started local extension host with pid 795.
+2024-02-25 14:11:39.736 [error] [Extension Host] (node:795) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-02-25 14:11:42.472 [info] [perf] Render performance baseline is 92ms
+2024-02-25 15:50:17.535 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-25 15:50:18.081 [info] Started local extension host with pid 1382.
+2024-02-25 15:50:21.090 [error] [Extension Host] (node:1382) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-02-25 15:50:22.075 [info] [perf] Render performance baseline is 69ms

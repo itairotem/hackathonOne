@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//excercise 1
+const sum = (num1, num2) => num1 + num2;
+
+//excercise 2
+function kgToGramsDeclaration(weightInKg) {
+    return weightInKg * 1000;
+}
+console.log(kgToGramsDeclaration(5));
+
+
+const kgToGramsExpression = function(weightInKg) {
+    return weightInKg * 1000;
+};
+console.log(kgToGramsExpression(5));
+
+
+
+const kgToGramsArrow = weightInKg => weightInKg * 1000;
+console.log(kgToGramsArrow(5));
+
+//Exercise 3 : Fortune Teller
+(function(numberOfChildren, partnerName, geographicLocation, jobTitle) {
+    const sentence = `You will be a ${jobTitle} in ${geographicLocation}, and married to ${partnerName} with ${numberOfChildren} kids.`;
+    document.body.innerHTML = sentence;
+})(2, "Alice", "New York", "Software Engineer");
+
+//Exercise 4 : Welcome
+(function(username) {
+    // Select the navbar ul
+    const navbarUl = document.querySelector('.navbar-nav');
+    
+    // Create a div element
+    const userDiv = document.createElement('div');
+    userDiv.classList.add('navbar-text', 'mr-3');
+
+    // Create a span for the username
+    const usernameSpan = document.createElement('span');
+    usernameSpan.textContent = `Welcome, ${username}`;
+    userDiv.appendChild(usernameSpan);
+
+    // Create an image for the profile picture (placeholder)
+    const profileImg = document.createElement('img');
+    profileImg.src = 'https://via.placeholder.com/30'; // Placeholder image URL
+    profileImg.classList.add('rounded-circle', 'ml-2');
+    userDiv.appendChild(profileImg);
+
+    // Append the user div to the navbar ul
+    navbarUl.appendChild(userDiv);
+})("John");
+
+//Exercise 5 : Juice Bar
+//Part I:
+function makeJuice(size) {
+    function addIngredients(ingredient1, ingredient2, ingredient3) {
+        const sentence = `The client wants a ${size} juice, containing ${ingredient1}, ${ingredient2}, ${ingredient3}.`;
+        document.body.innerHTML = sentence;
+    }
+
+    // Invoke the inner function
+    addIngredients("apple", "orange", "banana");
+}
+
+// Invoke the outer function
+makeJuice("medium");
+
+//Part II:
+function makeJuice(size) {
+    const ingredients = []; // Empty array to store ingredients
+
+    function addIngredients(ingredient1, ingredient2, ingredient3) {
+        // Pushing ingredients into the array
+        ingredients.push(ingredient1, ingredient2, ingredient3);
+    }
+
+    function displayJuice() {
+        // Constructing the sentence using ingredients array and size
+        const sentence = `The client wants a ${size} juice, containing ${ingredients.join(', ')}.`;
+        // Displaying the sentence on the DOM
+        document.body.innerHTML = sentence;
+    }
+
+    // Invoking addIngredients twice
+    addIngredients("apple", "orange", "banana");
+    addIngredients("strawberry", "pineapple", "mango");
+
+    // Invoking displayJuice once
+    displayJuice();
+}
+
+// Invoking the makeJuice function in the global scope
+makeJuice("large");
+
+
+
+
+
+    </script>
+</body>
+</html>

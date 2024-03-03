@@ -1,0 +1,9 @@
+2024-02-25 14:11:33.399 [info] update#setState idle
+2024-02-25 14:12:03.465 [info] update#setState checking for updates
+2024-02-25 14:12:03.478 [info] update#setState available for download
+2024-02-25 15:49:48.669 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-25 15:50:17.050 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2024-02-25 15:50:17.051 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 807]: crashed with code 15 and reason 'killed'
+2024-02-25 15:50:17.069 [info] Extension host with pid 795 exited with code: 0, signal: unknown.
+2024-02-25 16:08:40.584 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-25 17:11:24.134 [info] Extension host with pid 1382 exited with code: 0, signal: unknown.

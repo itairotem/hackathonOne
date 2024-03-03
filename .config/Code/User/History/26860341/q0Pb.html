@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+function makeJuice(size) {
+    const ingredients = []; // Empty array to store ingredients
+
+    function addIngredients(ingredient1, ingredient2, ingredient3) {
+        // Pushing ingredients into the array
+        ingredients.push(ingredient1, ingredient2, ingredient3);
+    }
+
+    function displayJuice() {
+        // Constructing the sentence using ingredients array and size
+        const sentence = `The client wants a ${size} juice, containing ${ingredients.join(', ')}.`;
+        // Displaying the sentence on the DOM
+        document.body.innerHTML = sentence;
+    }
+
+    // Invoking addIngredients twice
+    addIngredients("apple", "orange", "banana");
+    addIngredients("strawberry", "pineapple", "mango");
+
+    // Invoking displayJuice once
+    displayJuice();
+}
+
+// Invoking the makeJuice function in the global scope
+makeJuice("large");
+
+
+    </script>
+</body>
+</html>

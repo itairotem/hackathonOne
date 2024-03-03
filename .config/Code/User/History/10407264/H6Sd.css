@@ -1,0 +1,12 @@
+.container {
+    background-color: blue;
+
+
+}
+
+.board {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: (3, 250px);
+    grid-template-rows: (3, 250px);
+}

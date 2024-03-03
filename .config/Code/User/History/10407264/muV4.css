@@ -1,0 +1,49 @@
+* {
+    background-color: grey;
+}
+.title {
+    text-align: center;
+    background-color: red;
+    margin: auto;
+    width: fit-content;
+    padding: 15px;
+    font-size: 45px;
+}
+.board{
+
+    background-color: black;
+
+}
+.container {
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    justify-content: center;
+    align-content: center;
+    gap: 15px; /* Adjust this value to set the gap between grid items */
+  }
+  .box {
+    background-color: #ccc; /* Background color of grid items */
+    border: 2px solid #000; /* Border around grid items */
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+  }
+  .image-container {
+    width: 300px; /* Set the width of the div */
+    height: 200px; /* Set the height of the div */
+    border: 1px solid #ccc; /* Add a border for visual clarity */
+    overflow: hidden; /* Hide any overflowing content */
+}
+
+/* CSS styling for the image */
+.image-container img {
+    width: 100%; /* Make the image fill the width of the div */
+    height: auto; /* Maintain the aspect ratio of the image */
+    display: block; /* Ensure proper rendering as a block element */
+    background-color: transparent;
+}

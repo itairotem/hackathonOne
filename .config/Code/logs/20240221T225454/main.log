@@ -1,0 +1,6 @@
+2024-02-21 22:54:54.475 [info] update#setState idle
+2024-02-21 22:55:07.032 [info] Extension host with pid 13124 exited with code: 0, signal: unknown.
+2024-02-21 22:55:24.479 [info] update#setState checking for updates
+2024-02-21 22:55:24.509 [info] update#setState available for download
+2024-02-22 10:39:15.447 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-22 10:48:03.327 [info] Extension host with pid 13203 exited with code: 0, signal: unknown.
