@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Notes App</h1>
+        <input type="text" id="noteTitleInput" placeholder="Enter title...">
+        <input type="text" id="noteInput" placeholder="Enter your note...">
+        <select id="colorSelector">
+            <option value="#ffffff">White</option>
+            <option value="#ffcccc">Red</option>
+            <option value="#ffebcc">Orange</option>
+            <option value="#ffffcc">Yellow</option>
+            <option value="#ccffcc">Green</option>
+            <option value="#cce6ff">Blue</option>
+            <option value="#ccccff">Purple</option>
+        </select>
+        <button onclick="addNote()">Add Note</button>
+        <div id="notesContainer"></div>
+    </div>
+</body>
+</html>

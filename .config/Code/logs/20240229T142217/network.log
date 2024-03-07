@@ -1,0 +1,2 @@
+2024-03-04 02:08:59.992 [error] electron #496: https://update.code.visualstudio.com/api/update/linux-x64/stable/019f4d1419fbc8219a181fab7892ebccf7ee29a2 - error undefined net::ERR_NAME_NOT_RESOLVED
+2024-03-04 02:09:00.221 [error] electron #497: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED

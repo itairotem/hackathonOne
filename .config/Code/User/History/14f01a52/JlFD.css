@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: calc(100% - 30px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="color"] {
+    margin-bottom: 10px;
+    appearance: auto;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#notesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.note {
+    width: 200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-wrap: break-word;
+}
+
+/* Add these styles to your existing CSS */
+
+.note-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.note-options {
+    display: flex;
+    align-items: flex-start;
+}
+
+.note-options button {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    
+}
+
+.editBtn {
+    order: 1; /* Move edit button to the left */
+}
+
+.deleteBtn {
+    order: 2; /* Move delete button to the right */
+}

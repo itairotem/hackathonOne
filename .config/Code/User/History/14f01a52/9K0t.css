@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Blue header text */
+    margin-top: 0;
+}
+
+input[type="text"],
+input[type="color"],
+textarea,
+button {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="color"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Blue button background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Dark blue hover color */
+}
+
+#notesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.note {
+    flex: 1 0 calc(50% - 20px); /* Two notes per row */
+    background-color: #f9f9f9; /* Light gray note background */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.note-header {
+    padding: 10px;
+    background-color: #007bff; /* Blue header background */
+    color: #fff; /* White header text */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.note-header input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    color: #fff; /* White title text */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.note-options {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.note-options button {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background-color: #fff; /* White button background */
+    color: #007bff; /* Blue button text */
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.note-options button:hover {
+    background-color: #007bff; /* Blue hover background */
+    color: #fff; /* White hover text */
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    box-sizing: border-box;
+    resize: none;
+}
