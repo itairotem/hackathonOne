@@ -35,3 +35,7 @@
     at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
     at async v.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
     at async X.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-07 10:59:00.861 [info] Getting Manifest... github.copilot-chat
+2024-03-07 10:59:00.889 [info] Installing extension: github.copilot-chat
+2024-03-07 10:59:02.366 [info] Getting Manifest... github.copilot
+2024-03-07 10:59:03.258 [info] Installing extension: github.copilot

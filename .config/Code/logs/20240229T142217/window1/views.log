@@ -26,3 +26,7 @@
 2024-03-03 14:13:54.634 [info] Removed views:workbench.debug.breakPointsView,workbench.debug.callStackView,workbench.debug.watchExpressionsView,workbench.debug.variablesView from workbench.view.debug
 2024-03-03 14:13:54.641 [info] Added views:workbench.debug.welcome in workbench.view.debug
 2024-03-03 14:13:59.407 [info] Added views:chatgpt-vscode.view in workbench.view.extension.chatgpt-vscode-view-container
+2024-03-07 10:57:56.185 [info] Added views:workbench.views.extensions.installed,workbench.views.extensions.popular,extensions.recommendedList in workbench.view.extensions
+2024-03-07 10:57:56.191 [info] Removed views:workbench.views.extensions.popular from workbench.view.extensions
+2024-03-07 10:58:03.662 [info] Removed views:extensions.recommendedList,workbench.views.extensions.installed from workbench.view.extensions
+2024-03-07 10:58:03.680 [info] Added views:workbench.views.extensions.marketplace in workbench.view.extensions
