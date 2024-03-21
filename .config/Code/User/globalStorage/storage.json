@@ -3,9 +3,10 @@
     "profileAssociations": {
         "workspaces": {
             "file:///tmp/vsliveshare-workspace-tmp-8CB253952AF7DD9FAFBD3CDA80ECDCD6B078/Visual%20Studio%20Live%20Share.code-workspace": "__default__profile__",
-            "file:///home/simgabrob/Hackathon": "__default__profile__",
             "file:///home/simgabrob/Bootcamp": "__default__profile__",
-            "file:///home/simgabrob/Final%20Project": "__default__profile__"
+            "file:///home/simgabrob/Final%20Project": "__default__profile__",
+            "file:///home/simgabrob/Hackathon": "__default__profile__",
+            "file:///home/simgabrob/Volunteering": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -13,13 +14,21 @@
     "telemetry.sqmId": "",
     "telemetry.machineId": "8b48c13aa04e86824ec089aa96c3bb449ff07e99209e39e4d7cb800078005525",
     "backupWorkspaces": {
-        "workspaces": [],
+        "workspaces": [
+            {
+                "id": "591b31da2859e7d8d99b9b2a920b6fd5",
+                "configURIPath": "file:///home/simgabrob/.config/Code/Workspaces/1711010120590/workspace.json"
+            }
+        ],
         "folders": [
             {
-                "folderUri": "file:///home/simgabrob/Bootcamp"
+                "folderUri": "file:///home/simgabrob/Final%20Project"
             },
             {
-                "folderUri": "file:///home/simgabrob/Final%20Project"
+                "folderUri": "file:///home/simgabrob/Hackathon"
+            },
+            {
+                "folderUri": "file:///home/simgabrob/Volunteering"
             }
         ],
         "emptyWindows": []
@@ -62,10 +71,33 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/simgabrob/Volunteering",
+                                        "path": "/home/simgabrob/Volunteering",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Volunteering"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/simgabrob/Hackathon",
+                                        "path": "/home/simgabrob/Hackathon",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Hackathon"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -88,17 +120,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Bootcamp"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/simgabrob/Hackathon",
-                                        "path": "/home/simgabrob/Hackathon",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Hackathon"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -729,6 +750,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -828,8 +856,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -1514,6 +1541,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
             },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+            },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "Ctrl+K O",
                 "isNative": false,
@@ -1765,8 +1797,8 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/simgabrob/Final%20Project",
-            "backupPath": "/home/simgabrob/.config/Code/Backups/89a777498ea75ea64f20f27682c667ef",
+            "folder": "file:///home/simgabrob/Volunteering",
+            "backupPath": "/home/simgabrob/.config/Code/Backups/9f674be89773ef6e5fe842b4201758a2",
             "uiState": {
                 "mode": 1,
                 "x": 384,

@@ -1,0 +1,5 @@
+2024-03-07 11:00:29.051 [info] Started local extension host with pid 3296.
+2024-03-07 11:00:32.614 [error] [Extension Host] (node:3296) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-03-07 11:00:33.293 [info] [perf] Render performance baseline is 86ms
+2024-03-07 11:00:34.000 [error] [Extension Host] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as simongrobbins."

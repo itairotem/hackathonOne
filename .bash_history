@@ -102,3 +102,12 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/simongrobbins/Final-Project.git
 git push -u origin main
+echo "# Final-Project" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/simongrobbins/Final-Project.git
+git push -u origin main
+gitremote -v
+git remote -v

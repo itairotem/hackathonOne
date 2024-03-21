@@ -13,22 +13,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/simgabrob/Javascript" added="2024-02-04T12:21:10.900827Z" modified="2024-02-04T12:21:10.900940Z" visited="2024-02-04T12:21:10.900829Z">
+  <bookmark href="file:///home/simgabrob/Hackathon" added="2024-02-19T08:33:15.029085Z" modified="2024-03-21T08:35:55.919189Z" visited="2024-02-19T08:33:15.029086Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-02-04T12:21:10.900838Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/simgabrob/Hackathon" added="2024-02-19T08:33:15.029085Z" modified="2024-02-26T10:39:13.851058Z" visited="2024-02-19T08:33:15.029086Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="inode/directory"/>
-        <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-02-26T10:39:13.851054Z" count="4"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-03-21T08:35:55.919185Z" count="6"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -59,6 +49,16 @@
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
           <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-03-03T12:46:56.247059Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/simgabrob/Volunteering" added="2024-03-21T08:36:34.918014Z" modified="2024-03-21T08:36:34.918019Z" visited="2024-03-21T08:36:34.918015Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-03-21T08:36:34.918017Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

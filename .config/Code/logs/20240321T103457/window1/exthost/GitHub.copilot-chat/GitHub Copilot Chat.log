@@ -1,0 +1,40 @@
+2024-03-21 10:35:08.406 [info] [FetcherService] Using Helix fetcher
+2024-03-21 10:35:08.406 [info] [gitExtensionService] Initializing Git extension service.
+2024-03-21 10:35:08.406 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-03-21 10:35:08.406 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-03-21 10:35:08.406 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-03-21 10:35:10.461 [info] [auth] Logged in as simongrobbins
+2024-03-21 10:35:11.155 [info] [auth] Invalid copilot token: missing token: 403 
+2024-03-21 10:35:11.158 [info] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as simongrobbins."
+2024-03-21 10:35:11.434 [info] [auth] Logged in as simongrobbins
+2024-03-21 10:35:11.753 [info] [auth] Invalid copilot token: missing token: 403 
+2024-03-21 10:35:23.495 [info] [FetcherService] Using Helix fetcher
+2024-03-21 10:35:23.495 [info] [gitExtensionService] Initializing Git extension service.
+2024-03-21 10:35:23.495 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-03-21 10:35:23.495 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-03-21 10:35:23.495 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-03-21 10:35:24.700 [info] [auth] Logged in as simongrobbins
+2024-03-21 10:35:26.125 [info] [auth] Invalid copilot token: missing token: 403 
+2024-03-21 10:35:26.128 [info] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as simongrobbins."
+2024-03-21 10:35:26.285 [info] [auth] Logged in as simongrobbins
+2024-03-21 10:35:26.899 [info] [auth] Invalid copilot token: missing token: 403 
+2024-03-21 10:36:10.491 [info] [FetcherService] Using Helix fetcher
+2024-03-21 10:36:10.491 [info] [gitExtensionService] Initializing Git extension service.
+2024-03-21 10:36:10.491 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-03-21 10:36:10.491 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-03-21 10:36:10.491 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-03-21 10:36:12.555 [info] [auth] Logged in as simongrobbins
+2024-03-21 10:36:13.247 [info] [auth] Invalid copilot token: missing token: 403 
+2024-03-21 10:36:13.254 [info] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as simongrobbins."
+2024-03-21 10:36:13.284 [info] [auth] Logged in as simongrobbins
+2024-03-21 10:36:13.593 [info] [auth] Invalid copilot token: missing token: 403 
+2024-03-21 10:36:41.261 [info] [FetcherService] Using Helix fetcher
+2024-03-21 10:36:41.261 [info] [gitExtensionService] Initializing Git extension service.
+2024-03-21 10:36:41.261 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-03-21 10:36:41.261 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-03-21 10:36:41.261 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-03-21 10:36:42.039 [info] [auth] Logged in as simongrobbins
+2024-03-21 10:36:42.696 [info] [auth] Invalid copilot token: missing token: 403 
+2024-03-21 10:36:42.698 [info] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as simongrobbins."
+2024-03-21 10:36:42.756 [info] [auth] Logged in as simongrobbins
+2024-03-21 10:36:43.033 [info] [auth] Invalid copilot token: missing token: 403 

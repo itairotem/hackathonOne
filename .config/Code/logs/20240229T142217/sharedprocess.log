@@ -39,3 +39,14 @@
 2024-03-07 10:59:00.889 [info] Installing extension: github.copilot-chat
 2024-03-07 10:59:02.366 [info] Getting Manifest... github.copilot
 2024-03-07 10:59:03.258 [info] Installing extension: github.copilot
+2024-03-07 11:00:21.541 [info] Extension signature is verified: github.copilot-chat
+2024-03-07 11:00:21.931 [info] Extracted extension to file:///home/simgabrob/.vscode/extensions/github.copilot-chat-0.13.0: github.copilot-chat
+2024-03-07 11:00:22.007 [info] Renamed to /home/simgabrob/.vscode/extensions/github.copilot-chat-0.13.0
+2024-03-07 11:00:22.012 [info] Extracting extension completed. github.copilot-chat
+2024-03-07 11:00:22.097 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/simgabrob/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/simgabrob/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)

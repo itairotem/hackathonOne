@@ -1,0 +1,49 @@
+2024-03-21 10:35:00.194 [warning] Creation of workbench contribution 'workbench.contrib.chatExtensionPointHandler' took 94ms.
+2024-03-21 10:35:01.367 [info] Started local extension host with pid 805.
+2024-03-21 10:35:08.200 [error] [Extension Host] (node:805) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-03-21 10:35:09.690 [info] [perf] Render performance baseline is 250ms
+2024-03-21 10:35:11.255 [error] [Extension Host] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as simongrobbins."
+2024-03-21 10:35:20.346 [info] Started local extension host with pid 931.
+2024-03-21 10:35:21.868 [error] [Extension Host] (node:931) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-03-21 10:35:26.139 [error] [Extension Host] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as simongrobbins."
+2024-03-21 10:36:00.700 [error] Cannot register two commands with the same id: workbench.explorer.fileView.focus: Error: Cannot register two commands with the same id: workbench.explorer.fileView.focus
+    at o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:679:20165)
+    at C.R (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2864:67133)
+    at C.H (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2864:61565)
+    at l.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2864:61207)
+    at o.y (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at o.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at s.add (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2311:97764)
+    at n.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2864:58436)
+    at n.N (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2864:48217)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2864:48711
+    at Array.forEach (<anonymous>)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2864:48645
+    at s.bufferChangeEvents (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:644:35551)
+    at n.Q (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2864:48619)
+    at l.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2864:46836)
+    at o.y (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at o.z (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:1972)
+    at o.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2188)
+    at u.registerViews2 (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:793:2912)
+    at u.registerViews (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:793:2791)
+    at N.b (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2602:20223)
+    at l.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2602:19846)
+    at o.y (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at o.z (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:1972)
+    at o.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2188)
+    at B.Ab (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:35229)
+    at async B.yb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:33357)
+2024-03-21 10:36:03.080 [info] Started local extension host with pid 1457.
+2024-03-21 10:36:10.957 [error] [Extension Host] (node:1457) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-03-21 10:36:11.575 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 128ms.
+2024-03-21 10:36:12.424 [info] [perf] Render performance baseline is 291ms
+2024-03-21 10:36:13.322 [error] [Extension Host] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as simongrobbins."
+2024-03-21 10:36:36.050 [info] Started local extension host with pid 1815.
+2024-03-21 10:36:38.900 [info] [perf] Render performance baseline is 64ms
+2024-03-21 10:36:41.233 [error] [Extension Host] (node:1815) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-03-21 10:36:42.732 [error] [Extension Host] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as simongrobbins."
